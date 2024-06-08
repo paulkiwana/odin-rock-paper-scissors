@@ -13,3 +13,11 @@ const getHumanChoice = () => {
 getHumanChoice()
 let humanScore = 0;
 let computerScore = 0;
+
+const playRound = (humanChoice, computerChoice) => {
+
+}
+const humanSelection = getHumanChoice();
+const computerSelection = getComputerChoice();
+
+playRound(humanSelection, computerSelection);
