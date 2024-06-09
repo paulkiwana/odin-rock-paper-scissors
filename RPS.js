@@ -4,14 +4,14 @@ const getComputerChoice = () => {
 return choices[computerChoice];
 
 }
-//getComputerChoice()
+
 
 const getHumanChoice = () => {
     const choice = prompt("enter choice","Rock");
     const humanChoice = choice.toLowerCase();
    return humanChoice;
 }
-//getHumanChoice()
+
 
 
 
@@ -22,13 +22,13 @@ return "Its a Tie"
     (humanChoice === "rock" && computerChoice === "scissors")||
     (humanChoice === "scissors" && computerChoice === "paper")|| 
     (humanChoice === "paper" && computerChoice === "rock")){
-return `You win ${humanChoice} beats ${computerChoice}`
+return `You win, your ${humanChoice} beats computer's ${computerChoice}`
 } else{
-    return `You lose ${computerChoice} beats ${humanChoice}`
+    return `You lose, computer's ${computerChoice} beats your ${humanChoice}`
 }
 }
 
-//playRound(humanSelection, computerSelection);
+
 
 const playGame = () => {
     let humanScore = 0;
