@@ -1,14 +1,14 @@
 const getComputerChoice = () => {
     const choices = ["Rock","Paper","Scissors"];
    const randomIndex = Math.floor(Math.random() * choices.length);
-console.log(choices[randomIndex]);
+console.log("computer chooses " + choices[randomIndex]);
 
 }
 getComputerChoice()
 
 const getHumanChoice = () => {
     const humanChoice = prompt("enter choice","Rock");
-    console.log(humanChoice);
+    console.log("I choose " + humanChoice);
 }
 getHumanChoice()
 let humanScore = 0;
